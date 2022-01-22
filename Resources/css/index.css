@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+      margin-top:150px;
+      
+  }
+  
+  .blue {
+    color: #fff;
+    background-color: #2d5dcc;
+    width: 800px;
+    height: 100px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  .pink {
+    color: #000;
+    background-color: #d957d9;
+    width: 33%;
+    text-align: center;
+  }
+  
+  .green {
+    color: rgb(0, 0, 0);
+    background-color: #4fe0b0;
+    width: 33%;
+    text-align: center;
+  }
+  
+  .beige {
+    color: rgb(0, 0, 0);
+    background-color: #efd9ca;
+    width: inherit;
+    text-align: center;
+    height: 100px;
+  }
+  
+  table {
+    border: 1px solid black;
+    margin: 20px 100px;
+    width: 80%;
+  }
+  
+  .font-style {
+    text-decoration: underline;
+  }
+  
+  .permanent-marker {
+    font-family: Permanent Marker;
+  }
+  
+  .quicksand {
+    font-family: quicksand;
+  }
+  
+  .fruktur {
+    font-family: fruktur;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .color-blocks{
+      width: 80%;
+      height: auto;
+      border: 1px solid black;
+     margin: 20px 100px;
+  }
+
+  .color-blocks h2 {
+      margin-left: 10px;
+  }
+
+    .blue1, .pink1, .green1, .beige1 {
+      width: 31%;
+      height: 100px;
+      display:inline-block;
+  }
+
+  
+  .blue1 {
+    color: #fff;
+    background-color: #2d5dcc;
+    
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  .pink1 {
+    color: #000;
+    background-color: #d957d9;
+   
+    text-align: center;
+  }
+  
+  .green1 {
+    color: #000;
+    background-color: #4fe0b0;
+   
+    text-align: center;
+  }
+  
+  .beige1 {
+    color: #000;
+    background-color: #efd9ca;
+     margin-left: 50px;
+     margin-top: 25px;
+     margin-bottom: 20px;
+    text-align: center;
+    
+  }
+
+
+  /* Scaling Images and Videos */
+
+  #section1 {
+      
+      margin-top: 20px;
+  }
+
+  .black-backdrop {
+      background-color: rgb(31, 28, 28);
+      height: 500px;
+      width: 500px;
+      color: turquoise;
+      padding-top: 30px;
+      margin-top: 30px;
+      font-size: 1.1em;
+      
+  }
+
+  .container {
+      color: rgb(9, 161, 9);
+      margin-left: 10px;
+  }
+  
+  .bracket {
+      color: #fff;
+      padding-left: 8px;
+  }
+
+  .property {
+      text-indent: 30px;
+  }
+
+  .colon {
+      color: white;
+      padding-right: 3px;
+  }
+  
+  .percentage {
+      color: tomato;
+  }
+
+  .style {
+      color: rgb(216, 7, 216);
+  }
+
+  .image-tag {
+      color:red;
+  }
+
+  nav {
+      background-color: salmon;
+      width: 100%;
+      height: 100px;
+      text-align: center auto;
+      padding-top: 20px;
+      top: 0;
+      position: fixed;
+      overflow: hidden;
+      left: 0;
+      
+  }
+
+  nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    background-color: turquoise;
+   
+  }
+  
+  a:hover {
+
+    color: yellow;
+    background-color: black;
+  }
+
+  .avatar {
+    background-image: url('../images/Troy\ Lito\ Thumbnail.jpeg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block
+   
+    
+    
+}

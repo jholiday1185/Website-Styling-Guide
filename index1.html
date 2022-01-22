@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaling Images and Videos</title>
+    <link rel="stylesheet"  href="./Resources/css/index.css">
+</head>
+<nav>
+    <div class="avatar"></div>
+    <a href="./index.html">My Website Style Guide</a>
+</nav>
+<body>
+  
+    <header>
+        <h1>Scaling Images and Videos</h1>
+    </header>
+    <div id="section1">
+        <div class="black-backdrop">
+            <p class="container">.container <span class="bracket">{</span></p>
+            <p class="property">width<span class="colon">:  </span><span class="percentage">50%</span><span class="colon">;</span></p>
+            <p class="property">height<span class="colon">:  </span><span class="percentage">200px</span><span class="colon">;</span></p>
+            <p class="property">overflow<span class="colon">:  </span><span class="style">hidden</span><span class="colon">;</span></p>
+            <p class="bracket">}</p>  
+            <br>
+            <p class="container">.container <span class="image-tag">img</span> <span class="bracket">{</span></p>
+            <p class="property">max-width<span class="colon">:  </span><span class="percentage">100%</span><span class="colon">;</span></p>
+            <p class="property">height<span class="colon">:  </span><span class="style">auto</span><span class="colon">;</span></p>
+            <p class="property">display<span class="colon">:  </span><span class="style">block</span><span class="colon">;</span></p>
+            <p class="bracket">}</p>  
+        </div>
+    </div>
+
+    <div>
+        <p>Note: The example above scales the width of an image (or video) to the width of a container. <br>
+            If the image is larger than the container, the vertical portion of the image will overflow and will not display. <br>
+            To swap this behavior, you can set max-height to 100% and width to auto (essentially swapping the values). <br>
+            This will scale the height of the image with the height of the container instead. <br>
+            If the image is larger than the container, the horizontal portion of the image will overflow and not display.</p>
+    </div>
+</body>
+</html>
